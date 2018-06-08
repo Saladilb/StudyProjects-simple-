@@ -1,0 +1,2 @@
+INSERT INTO "public"."event" ("id", "description", "name", "manager_id") VALUES (1, 'Мероприятие пройдёт в городском стадионе в 17.00', 'Товарищеский матч', NULL)
+INSERT INTO "public"."manager" ("id", "name") VALUES (1, 'Катерина')

@@ -1,0 +1,79 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '–g',
+1 verbose cli   '@angular/cli' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 error arg Argument starts with non-ascii dash, this is probably invalid: [ '–g', '@angular/cli' ]
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData –g
+9 silly fetchPackageMetaData @angular/cli
+10 silly fetchOtherPackageData –g
+11 silly cache add args [ '–g', null ]
+12 verbose cache add spec –g
+13 silly fetchNamedPackageData @angular/cli
+14 silly mapToRegistry name @angular/cli
+15 silly mapToRegistry scope (from package name) @angular
+16 verbose mapToRegistry no registry URL found in name for scope @angular
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry data Result {
+19 silly mapToRegistry   raw: '@angular/cli',
+19 silly mapToRegistry   scope: '@angular',
+19 silly mapToRegistry   escapedName: '@angular%2fcli',
+19 silly mapToRegistry   name: '@angular/cli',
+19 silly mapToRegistry   rawSpec: '',
+19 silly mapToRegistry   spec: 'latest',
+19 silly mapToRegistry   type: 'tag' }
+20 silly mapToRegistry uri https://registry.npmjs.org/@angular%2fcli
+21 silly cache add parsed spec Result {
+21 silly cache add   raw: '–g',
+21 silly cache add   scope: null,
+21 silly cache add   escapedName: null,
+21 silly cache add   name: null,
+21 silly cache add   rawSpec: '–g',
+21 silly cache add   spec: 'C:\\Users\\yuliya.ditarova\\Desktop\\Java\\final project\\–g',
+21 silly cache add   type: 'local' }
+22 verbose request uri https://registry.npmjs.org/@angular%2fcli
+23 verbose request no auth needed
+24 info attempt registry request try #1 at 17:06:25
+25 verbose request id 8b52e4c849415b01
+26 http request GET https://registry.npmjs.org/@angular%2fcli
+27 error addLocal Could not install C:\Users\yuliya.ditarova\Desktop\Java\final project\–g
+28 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\yuliya.ditarova\Desktop\Java\final project\–g'
+28 silly fetchPackageMetaData     at Error (native)
+28 silly fetchPackageMetaData  error for –g { Error: ENOENT: no such file or directory, open 'C:\Users\yuliya.ditarova\Desktop\Java\final project\–g'
+28 silly fetchPackageMetaData     at Error (native)
+28 silly fetchPackageMetaData   errno: -4058,
+28 silly fetchPackageMetaData   code: 'ENOENT',
+28 silly fetchPackageMetaData   syscall: 'open',
+28 silly fetchPackageMetaData   path: 'C:\\Users\\yuliya.ditarova\\Desktop\\Java\\final project\\–g' }
+29 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+30 info attempt registry request try #2 at 17:06:35
+31 http request GET https://registry.npmjs.org/@angular%2fcli
+32 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+33 verbose stack Error: kill ENOSYS
+33 verbose stack     at exports._errnoException (util.js:1020:11)
+33 verbose stack     at process.kill (internal/process.js:190:13)
+33 verbose stack     at process.listener (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:86:15)
+33 verbose stack     at emitNone (events.js:91:20)
+33 verbose stack     at process.emit (events.js:185:7)
+33 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+33 verbose stack     at processEmit (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\node_modules\npmlog\node_modules\gauge\node_modules\signal-exit\index.js:146:32)
+33 verbose stack     at Signal.wrap.onsignal (internal/process.js:217:44)
+34 verbose cwd C:\Users\yuliya.ditarova\Desktop\Java\final project
+35 error Windows_NT 6.1.7601
+36 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "–g" "@angular/cli"
+37 error node v6.11.2
+38 error npm  v3.10.10
+39 error code ENOSYS
+40 error errno ENOSYS
+41 error syscall kill
+42 error kill ENOSYS
+43 error If you need help, you may report this error at:
+43 error     <https://github.com/npm/npm/issues>
+44 verbose exit [ 1, true ]
